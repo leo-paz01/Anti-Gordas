@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.container{
+    background-color: red;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+}
+
+
+.tareas{
+    background-color: yellow;
+    margin: 15px;
+    padding: 30px;
+    display: grid;
+}
+
+#tarea{
+    width: 60%;
+    height: 15%;
+    margin: 10px;
+    padding: 5%;
+}
+
+textarea{
+    resize: none;
+}
+
+
+.tarea-agregada{
+    background-color: aquamarine;
+    width: 70%;
+    height: 60px;
+    margin-top: 50px;
+}
